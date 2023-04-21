@@ -9,4 +9,5 @@ https://knureigs.github.io/itech/lb/ITech1_JS/ITech1_LabJS_meteo_kh.htm -- по�
 
 
 
-Текст для букмарклету: javascript:(() => {  let maxNode;  document.querySelectorAll('tr').forEach((currNode) => {    const currentNodeValue =      parseFloat(currNode.children[3].textContent) || -Infinity;    if (currentNodeValue > (maxNode?.maxTemp || 0)) {      maxNode = {        date: currNode.children[2].textContent,        maxTemp: currentNodeValue,      };    }  });  alert(    `Дата найспекотнішого дня:${maxNode.date}   Температура:${maxNode.maxTemp}`  );})();
+##Текст для букмарклету:
+javascript:(() => {  let maxNode;  document.querySelectorAll('tr').forEach((currNode) => {    const currentNodeValue =      parseFloat(currNode.children[3].textContent) || -Infinity;    if (currentNodeValue > (maxNode?.maxTemp || 0)) {      maxNode = {        date: currNode.children[2].textContent,        maxTemp: currentNodeValue,      };    }  });  alert(    `Дата найспекотнішого дня:${maxNode.date}   Температура:${maxNode.maxTemp}`  );})();
