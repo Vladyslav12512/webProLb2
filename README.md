@@ -8,7 +8,7 @@
 https://knureigs.github.io/itech/lb/ITech1_JS/ITech1_LabJS_meteo_kh.htm -- посилання на таблицю температури
 
 
-#Скрін роботи букмарклету
+# Скрін роботи букмарклету
 ![image](https://user-images.githubusercontent.com/116881961/233861120-0001c9b2-6e5f-487c-b5cd-96a345e50138.png)
 
 # Текст для букмарклету:
